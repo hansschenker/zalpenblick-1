@@ -122,13 +122,13 @@ p {
 
   .hero {
       grid-area: ho;
-      display: flex;
+      /* display: flex;
       flex-direction: row;
-      flex-wrap: nowrap;
+      flex-wrap: nowrap; */
   }
   .logo{
       grid-row: 1;
-      opacity: .7;
+      opacity: .9;
       /* flex: 1 1 auto; */
   }
   img {
@@ -142,7 +142,8 @@ p {
   }
   .img-logo {
     object-fit: cover;
-    height: 35vh;
+    height: 55vh;
+    width: 100%;
   }
 
   .navigation {
